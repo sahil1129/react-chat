@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 // Generate a unique ID for the current user
 const userId = Math.random().toString(36).substring(2, 15);
 
-const socket = io("http://localhost:3000"); // Replace with your server URL
+const socket = io("http://50.16.31.248:3000"); // Replace with your server URL
 
 function App() {
   const [message, setMessage] = useState("");

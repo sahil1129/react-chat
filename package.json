@@ -10,6 +10,8 @@
     "socket.io-client": "^4.8.1",
     "web-vitals": "^4.2.4"
   },
+"proxy": "http://50.16.31.248:3000",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
